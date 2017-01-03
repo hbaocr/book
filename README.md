@@ -5,7 +5,7 @@
 
 Bạn muốn tìm hiểu về Rust nhưng không biết bắt đầu từ đâu! Quyển sách này là điểm khởi đầu tốt nhất, quyển sách sẽ giới
 thiệu với các bạn những kiến thức cơ bản trong Rust, từ đơn giản cho đến phức tạp. Những kiến thức trong đây
-được trình bày hết sức đơn giản, dể hiểu, rất thích hợp cho những bạn đang bắt đầu tìm hiểu về Rust.
+được trình bày hết sức đơn giản, dễ hiểu, rất thích hợp cho những bạn đang bắt đầu tìm hiểu về Rust.
 
 Rust Vietnam không trực tiếp viết ra quyển sách, nhưng Rust Vietnam sẽ thực hiện việc Việt hoá quyển sách này,
 để giúp các bạn có cách tiếp cận tốt nhất đối với Rust.

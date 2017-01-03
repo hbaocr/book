@@ -87,7 +87,7 @@ Trong hàm `main`:
     println!("Hello, world!");
 ```
 
-Với một chương trình đơn giản thì dòng code trên đã chứa đừng hết nội dùng của chương trình, cụ thể:
+Với một chương trình đơn giản thì dòng code trên đã chứa đựng hết nội dung của chương trình, cụ thể:
 Nó in ra dòng text ở màn hình. Ở đây có một vài điểm lưu ý. Đầu tiên, nói về mặt coding style thì Rust dùng
 `tab space` để thụt vào, không dùng `tab`.
 
@@ -147,7 +147,7 @@ và đưa nó qua một môi trường khác, và bạn có thể chạy chươn
 Rust hay chưa. Nếu bạn copy các file `.rb`, `.py`, hoặc `.js`, sang một môi trường khác, 
 thì cần phải có Ruby, Python, hoặc JavaScript phải được cài đặt, 
 nhưng bạn chỉ cần một dòng lệnh cho cả việc compile và chạy chương trình. 
-Tất cả mọi thứ điều có một sự lựa chọn phụ hợp khi thiết kế ngôn ngữ đó.
+Tất cả mọi thứ điều có một sự lựa chọn phù hợp khi thiết kế ngôn ngữ đó.
 
 Dùng `rustc` để compile đối với những chương trình đơn giản là một lựa chọn hợp lý, nhưng khi chương trình
 phức tạp, bạn muốn quản lý các tuỳ chỉnh của chương trình và muốn công việc chia sẽ với người khác
@@ -157,7 +157,7 @@ tool này để viết một chương trình đơn giản `Hello, world!`.
 ## Xin chào, Cargo!
 
 Cargo là một công cụ dùng để quản lý các gói và là một công cụ dùng để build các chương trình của Rust, 
-và Rustaceans sử dụng Cargo để quản lý các project vì đặc điểm dể sử dụng. Ví dụ,
+và Rustaceans sử dụng Cargo để quản lý các project vì đặc điểm dễ sử dụng. Ví dụ,
 Cargo được dùng để build code, tự động tải về các thư viện cần thiết, và tiến hành compile các thư viện đó. 
 Chúng ta gọi các thư viện phụ thuộc vào code là *dependencies*.
 
