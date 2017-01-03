@@ -145,7 +145,7 @@ bạn tìm thấy thì đừng ngại tạo một [Pull request](https://github.
 phiên bản ebook offline thì bạn cần làm các bước sau:
 
 1. Clone project: `$ git clone https://github.com/rust-vietnam/book`
-2. Vì ebook này được xâu dựng bằng [mdBook](https://github.com/azerupi/mdBook), nên cần install: `$ cargo instal mdbook`
+2. Vì ebook này được xây dựng bằng [mdBook](https://github.com/azerupi/mdBook), nên cần install: `$ cargo install mdbook`
 3. Serve project : `mdbook serve`
 4. Tiến hành Việt hoá hoặc tìm lỗi.
 5. Tiến hành build ebook: `$ mdbook build`. Mặc định sau khi build thì content sẽ nằm trong folder `book`
@@ -154,6 +154,6 @@ Nếu bạn dùng `Window` bạn có thể mở folder `book` và duple click v�
 7. Tạo PR.
 
 Ngay sau khi bạn tạo PR chúng tôi đã xây dựng 1 người giúp việc `CI` để tự động kiểm tra lại bạn có sai sót nhỏ gì không ?
-Đưng lo lắng bạn có thể xem lại công việc của người giúp việc [CI](https://travis-ci.org/rust-vietnam/book) đã thực hiện.
+Đừng lo lắng bạn có thể xem lại công việc của người giúp việc [CI](https://travis-ci.org/rust-vietnam/book) đã thực hiện.
 Bạn sẽ thấy status hiện tại của CI, nếu green, xin chúc mừng chúng tôi sẽ review lại và sẽ accept PR của bạn, việc này sẽ mất
 từ 2-3 tiếng. Ngay sau khi merge thì PR của bạn sẽ xuất hiện trên trang chủ [Ebook: Ngôn ngữ lập trình Rust](https://rust-vietnam.github.io/book/).
