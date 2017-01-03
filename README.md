@@ -145,7 +145,7 @@ bạn tìm thấy thì đừng ngại tạo một [Pull request](https://github.
 phiên bản ebook offline thì bạn cần làm các bước sau:
 
 1. Clone project: `$ git clone https://github.com/rust-vietnam/book`
-2. Vì ebook này được xâu dựng bằng [mdBook](https://github.com/azerupi/mdBook), nên cần install: `$ cargo install mdbook`
+2. Vì ebook này được xây dựng bằng [mdBook](https://github.com/azerupi/mdBook), nên cần install: `$ cargo install mdbook`
 3. Serve project : `mdbook serve`
 4. Tiến hành Việt hoá hoặc tìm lỗi.
 5. Tiến hành build ebook: `$ mdbook build`. Mặc định sau khi build thì content sẽ nằm trong folder `book`
