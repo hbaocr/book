@@ -180,7 +180,7 @@ hợp đó.
 Vào đầu chương này, chúng ta đã nghiên cứu là vector chỉ có thể lưu trữ giá trị
 mà có cùng một kiểu dữ liệu. Điều này có thể gây khó chịu, chắc chắn sẽ có những
 trường hợp cần lưu 1 mảng các thứ có kiểu khác nhau. May mắn thay, các kiểu con
-của enum đều được định nghĩa dưới cùng 1 kiểu enum. Khi chung ta cần lưu trữ phần
+của enum đều được định nghĩa dưới cùng 1 kiểu enum. Khi chúng ta cần lưu trữ phần
 tử với những kiểu dữ liệu khác nhau, chúng ta có thể định nghĩa và sử dụng enum!
 
 Ví dụ, cho rằng chúng ta muốn lấy giá trị trong 1 dòng của bảng tính, nơi mà
@@ -229,12 +229,6 @@ hãy đảm bảo là bạn sẽ xem qua tài liệu API (API documentation) đ�
 hàm hữu ích được viết trong module `Vec` của thư viện chuẩn. Ví dụ, ngoài `push` còn
 có hàm `pop` sẽ giúp bạn xoá và lấy ra phần tử cuối cùng trong vector. Bây giờ, hãy
 cùng qua tới kiểu dữ liệu tập hợp tiếp theo: `String`!
-
-Now that we've gone over some of the most common ways to use vectors, be sure
-to take a look at the API documentation for all of the many useful methods
-defined on `Vec` by the standard library. For example, in addition to `push`
-there's a `pop` method that will remove and return the last element. Let's move
-on to the next collection type: `String`!
 
 <!-- Do you mean the Rust online documentation here? Are you not including it
 in the book for space reasons? We might want to justify sending them out of the
