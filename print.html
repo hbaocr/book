@@ -190,7 +190,7 @@ thì dấu <code>{</code> phải được đặt cùng hàng với tên hàm, v�
 <p>Trong hàm <code>main</code>:</p>
 <pre><code class="language-rust">    println!(&quot;Hello, world!&quot;);
 </code></pre>
-<p>Với một chương trình đơn giản thì dòng code trên đã chứa đừng hết nội dùng của chương trình, cụ thể:
+<p>Với một chương trình đơn giản thì dòng code trên đã chứa đựng hết nội dung của chương trình, cụ thể:
 Nó in ra dòng text ở màn hình. Ở đây có một vài điểm lưu ý. Đầu tiên, nói về mặt coding style thì Rust dùng
 <code>tab space</code> để thụt vào, không dùng <code>tab</code>.</p>
 <p>Điều quan trọng thứ 2 là <code>println!</code>. Đây được gọi là <em>macro</em> ở Rust. Nếu gọi đây là một hàm,
@@ -231,14 +231,14 @@ và đưa nó qua một môi trường khác, và bạn có thể chạy chươn
 Rust hay chưa. Nếu bạn copy các file <code>.rb</code>, <code>.py</code>, hoặc <code>.js</code>, sang một môi trường khác,
 thì cần phải có Ruby, Python, hoặc JavaScript phải được cài đặt,
 nhưng bạn chỉ cần một dòng lệnh cho cả việc compile và chạy chương trình.
-Tất cả mọi thứ điều có một sự lựa chọn phụ hợp khi thiết kế ngôn ngữ đó.</p>
+Tất cả mọi thứ điều có một sự lựa chọn phù hợp khi thiết kế ngôn ngữ đó.</p>
 <p>Dùng <code>rustc</code> để compile đối với những chương trình đơn giản là một lựa chọn hợp lý, nhưng khi chương trình
 phức tạp, bạn muốn quản lý các tuỳ chỉnh của chương trình và muốn công việc chia sẽ với người khác
 trở nên đơn giản hơn. Phần kế tiếp chúng ta sẽ cùng tìm hiểu về một công cụ gọi là Cargo, và chúng ta sẽ dùng
 tool này để viết một chương trình đơn giản <code>Hello, world!</code>.</p>
 <h2>Xin chào, Cargo!</h2>
 <p>Cargo là một công cụ dùng để quản lý các gói và là một công cụ dùng để build các chương trình của Rust,
-và Rustaceans sử dụng Cargo để quản lý các project vì đặc điểm dể sử dụng. Ví dụ,
+và Rustaceans sử dụng Cargo để quản lý các project vì đặc điểm dễ sử dụng. Ví dụ,
 Cargo được dùng để build code, tự động tải về các thư viện cần thiết, và tiến hành compile các thư viện đó.
 Chúng ta gọi các thư viện phụ thuộc vào code là <em>dependencies</em>.</p>
 <p>Chương trình đơn giản nhất ở Rust, giống như chương trình chúng ta đã xây dựng ở phần trên, không có
@@ -5532,7 +5532,7 @@ hợp đó.</p>
 <p>Vào đầu chương này, chúng ta đã nghiên cứu là vector chỉ có thể lưu trữ giá trị
 mà có cùng một kiểu dữ liệu. Điều này có thể gây khó chịu, chắc chắn sẽ có những
 trường hợp cần lưu 1 mảng các thứ có kiểu khác nhau. May mắn thay, các kiểu con
-của enum đều được định nghĩa dưới cùng 1 kiểu enum. Khi chung ta cần lưu trữ phần
+của enum đều được định nghĩa dưới cùng 1 kiểu enum. Khi chúng ta cần lưu trữ phần
 tử với những kiểu dữ liệu khác nhau, chúng ta có thể định nghĩa và sử dụng enum!</p>
 <p>Ví dụ, cho rằng chúng ta muốn lấy giá trị trong 1 dòng của bảng tính, nơi mà
 1 số cột chứa số nguyên, 1 số chứa số thực, và 1 số chứa chuỗi. Chúng ta có thể
@@ -5574,11 +5574,6 @@ hãy đảm bảo là bạn sẽ xem qua tài liệu API (API documentation) đ�
 hàm hữu ích được viết trong module <code>Vec</code> của thư viện chuẩn. Ví dụ, ngoài <code>push</code> còn
 có hàm <code>pop</code> sẽ giúp bạn xoá và lấy ra phần tử cuối cùng trong vector. Bây giờ, hãy
 cùng qua tới kiểu dữ liệu tập hợp tiếp theo: <code>String</code>!</p>
-<p>Now that we've gone over some of the most common ways to use vectors, be sure
-to take a look at the API documentation for all of the many useful methods
-defined on <code>Vec</code> by the standard library. For example, in addition to <code>push</code>
-there's a <code>pop</code> method that will remove and return the last element. Let's move
-on to the next collection type: <code>String</code>!</p>
 <!-- Do you mean the Rust online documentation here? Are you not including it
 in the book for space reasons? We might want to justify sending them out of the
 book if we don't want to cover it here -->
