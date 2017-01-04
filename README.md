@@ -149,7 +149,7 @@ phiên bản ebook offline thì bạn cần làm các bước sau:
 3. Serve project : `mdbook serve`
 4. Tiến hành Việt hoá hoặc tìm lỗi.
 5. Tiến hành build ebook: `$ mdbook build`. Mặc định sau khi build thì content sẽ nằm trong folder `book`
-6. Review lại một lần nửa: `$ open -a "Firefox" book/index.html # OS X` hoặc `$ open -a "Google Chrome" book/index.html # OS X`.
+6. Review lại một lần nữa: `$ open -a "Firefox" book/index.html # OS X` hoặc `$ open -a "Google Chrome" book/index.html # OS X`.
 Nếu bạn dùng `Window` bạn có thể mở folder `book` và duple click vào file `index.html` để xem nội dung ebook.
 7. Tạo PR.
 
